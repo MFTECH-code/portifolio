@@ -1,25 +1,54 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from "react";
+import Cabecalho from "./componentes/cabecalho/Cabecalho";
+import MinhaHistoria from "./componentes/minha_historia/MinhaHistoria";
+import Conhecimentos from "./componentes/conhecimentos/Conhecimentos";
+import Formacao from "./componentes/formacao/Formacao";
+import Experiencias from "./componentes/experiencias/Experiencias";
+import Redes from "./componentes/redes/Redes";
 
-function App() {
+export default function App() {
+
+  const [minhaHistoria, setMinhaHistoria] = useState(false);
+  const [conhecimentos, setConhecimentos] = useState(false);
+  const [formacao, setFormacao] = useState(false);
+  const [experiencias, setExperiencias] = useState(false);
+  const [redes, setRedes] = useState(false);
+
+  const mostraConteudo = () => {
+    if (minhaHistoria) {
+      return <MinhaHistoria/>
+    } else if (conhecimentos) {
+      return <Conhecimentos/>
+    } else if (formacao) {
+      return <Formacao/>
+    } else if (experiencias) {
+      return <Experiencias/>
+    } else if (redes){
+      return <Redes/>
+    } else {
+      return(
+        <section>
+          <h1>Olá!</h1>
+        </section>
+      )
+    }
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Cabecalho 
+        minhaHistoria={minhaHistoria}
+        conhecimentos={conhecimentos}
+        formacao={formacao}
+        experiencias={experiencias}
+        redes={redes}
+        setMinhaHistoria={setMinhaHistoria}
+        setConhecimentos={setConhecimentos}
+        setFormacao={setFormacao}
+        setExperiencias={setExperiencias}
+        setRedes={setRedes}/>
+        {mostraConteudo()}
+    </>
   );
 }
 
-export default App;
