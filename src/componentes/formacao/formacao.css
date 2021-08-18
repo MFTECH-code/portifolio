@@ -1,0 +1,37 @@
+.formacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formacao h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.img-formacao {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.img-formacao img {
+    width: 40%;
+    border-radius: 14px;
+}
+
+.formacao ul {
+    list-style: none;
+    margin: 5px 0;
+    padding: 0 20px;
+}
+
+.formacao ul li {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.formacao ul li img {
+    width: 25px;
+    margin: 0 5px;
+}
