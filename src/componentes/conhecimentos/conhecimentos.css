@@ -1,0 +1,30 @@
+.conhecimentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.img-conhecimentos {
+    display: flex;
+    justify-content: center;
+}
+
+.img-conhecimentos img {
+    width: 35%;
+    border-radius: 14px;
+}
+
+.listas-conhecimentos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.listas-conhecimentos ul {
+    list-style: none;
+    margin: 0 50px;
+}
+
