@@ -28,3 +28,19 @@
     margin: 0 50px;
 }
 
+.listas-conhecimentos ul li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.listas-conhecimentos ul li span  {
+    margin: 0 5px;
+}
+
+.listas-conhecimentos ul li img {
+    width: 30px;
+}
+
