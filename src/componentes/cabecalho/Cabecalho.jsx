@@ -1,4 +1,5 @@
 import React from 'react';
+import "./cabecalho.css";
 
 const Cabecalho = (props) => {
 
@@ -45,9 +46,9 @@ const Cabecalho = (props) => {
 
 
     return (
-        <header>
+        <header className="cabecalho">
             <h1>Olá, meu nome é Matheus...</h1>
-            <nav>
+            <nav className="navBar">
                 <ul>
                     <li><a href="#minhaHistoria" onClick={() => trocaEstadoMinhaHistoria()}>Minha História</a></li>
                     <li><a href="#conhecimentos" onClick={() => trocaEstadoConhecimentos()}>Conhecimentos</a></li>
