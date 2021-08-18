@@ -5,6 +5,7 @@ import Conhecimentos from "./componentes/conhecimentos/Conhecimentos";
 import Formacao from "./componentes/formacao/Formacao";
 import Experiencias from "./componentes/experiencias/Experiencias";
 import Redes from "./componentes/redes/Redes";
+import "./App.css";
 
 export default function App() {
 
@@ -27,8 +28,17 @@ export default function App() {
       return <Redes/>
     } else {
       return(
-        <section>
-          <h1>Olá!</h1>
+        <section className="bem-vindo">
+          <h1 className="ola">Olá!</h1>
+          <img src="./img/ola.jpg" alt="Saudação" />
+          <div className="texto">
+            <p>Seja bem vindo ao meu portifólio, onde eu apresento um resumo da minha história, conhecimentos e experiências.</p>
+            <p>E sim eu sou muito fã do Jackie Chan, você vai ver várias imagens dele por aqui &#x1F604;.</p>
+            </div>
+            <h1>Agradecimentos</h1>
+            <div className="texto">
+              <p>Primeiramente agradeço o meu pai que nunca desistiu de me dar uma educação de qualidade, mesmo quando me mostrei não merecedor ele sempre me apoiou com seus sábios conselhos. Que ele descanse em paz &#x1F64F;.</p>
+            </div>
         </section>
       )
     }
