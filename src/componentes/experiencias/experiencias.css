@@ -1,0 +1,40 @@
+.experiencias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-experiencias {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.img-experiencias img {
+    width: 55%;
+    border-radius: 14px;
+}
+
+.experiencias ul {
+    list-style: none;
+    padding: 0;
+}
+
+.experiencias ul li {
+    margin-bottom: 10px;    
+}
+
+.experiencias ul li a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.experiencias ul li a:hover {
+    text-decoration: underline;
+}
+
+.experiencias ul li a img {
+    width: 25px;
+    margin: 0 5px;
+}
