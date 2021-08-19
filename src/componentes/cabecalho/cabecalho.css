@@ -32,15 +32,24 @@
 @media (max-width: 800px) {
 
     .cabecalho h1 {
-        margin: 50px;
+        margin: 50px 50px;
+        width: 25%;
+    }
+
+    .navBar {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+        width: 55%;
     }
 
     .navBar ul {
         display: flex;
         flex-direction: column;
         list-style: none;
-        margin: 30px 50px;
-        padding: 0px 40px;
+        margin: 30px 0px;
+        margin-left: 0;
+        padding: 0;
     }
 
     .navBar ul li {
