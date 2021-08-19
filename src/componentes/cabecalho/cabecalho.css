@@ -28,3 +28,23 @@
 .navBar ul li a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 800px) {
+
+    .cabecalho h1 {
+        margin: 50px;
+    }
+
+    .navBar ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        margin: 30px 50px;
+        padding: 0px 40px;
+    }
+
+    .navBar ul li {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+}

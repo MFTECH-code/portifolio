@@ -1,3 +1,15 @@
+.app h1 {
+  font-size: 2em;
+}
+
+.app p {
+  font-size: 1em;
+}
+
+.app ul {
+  margin: 30px 0;
+}
+
 .bem-vindo {
   display: flex;
   flex-direction: column;

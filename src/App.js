@@ -45,7 +45,7 @@ export default function App() {
   }
 
   return (
-    <>
+    <section className="app">
       <Cabecalho 
         minhaHistoria={minhaHistoria}
         conhecimentos={conhecimentos}
@@ -58,7 +58,7 @@ export default function App() {
         setExperiencias={setExperiencias}
         setRedes={setRedes}/>
         {mostraConteudo()}
-    </>
+    </section>
   );
 }
 
