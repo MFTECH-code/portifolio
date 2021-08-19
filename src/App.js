@@ -35,10 +35,10 @@ export default function App() {
             <p>Seja bem vindo ao meu portifólio, onde eu apresento um resumo da minha história, conhecimentos e experiências.</p>
             <p>E sim eu sou muito fã do Jackie Chan, você vai ver várias imagens dele por aqui &#x1F604;.</p>
             </div>
-            <h1>Agradecimentos</h1>
-            <div className="texto">
-              <p>Primeiramente agradeço o meu pai que nunca desistiu de me dar uma educação de qualidade, mesmo quando me mostrei não merecedor ele sempre me apoiou com seus sábios conselhos. Que ele descanse em paz &#x1F64F;.</p>
-            </div>
+          <h1>Agradecimentos</h1>
+          <div className="texto">
+              <p className="texto-agradecimentos">Primeiramente agradeço o meu pai que nunca desistiu de me dar uma educação de qualidade, mesmo quando me mostrei não merecedor ele sempre me apoiou com seus sábios conselhos. Que ele descanse em paz &#x1F64F;.</p>
+          </div>
         </section>
       )
     }

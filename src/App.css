@@ -16,6 +16,10 @@
   align-items: center;
 }
 
+.bem-vindo h1 {
+  margin-bottom: 10px;
+}
+
 .bem-vindo img {
   width: 25%;
   border-radius: 14px;
@@ -24,6 +28,11 @@
 
 .bem-vindo p {
   margin: 0;
+}
+
+.bem-vindo .texto-agradecimentos {
+  margin-top: 0;
+  margin-bottom: 35px;
 }
 
 .texto {
