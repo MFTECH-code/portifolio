@@ -13,6 +13,7 @@ const Experiencias = () => {
                 <li><a href="https://itch.io/jam/proficionaljam/rate/735882" target="_blank" rel="noreferrer"><img src="./img/game.png" alt="game icone" /><span>Participação de game JAM | None JAM | 2020</span></a></li>
                 <li><a href="https://github.com/ZenGroup-FIAP/GlobalSolution2021.1" target="_blank" rel="noreferrer"><img src="./img/project.png" alt="project icone" /><span>Projeto Gulliver Global Solution | FIAP | 2021</span></a></li>
                 <li><a href="https://github.com/ZenGroup-FIAP/projeto-ibm-zenspaceon" target="_blank" rel="noreferrer"><img src="./img/project.png" alt="project icone" /><span>ZenSpaceOn | FIAP | 2021</span></a></li>
+                <li><a href="https://calculadora-imc-react.vercel.app/" target="_blank" rel="noreferrer"><img src="./img/project.png" alt="project icone" /><span>Calculadora de IMC com ReactJS</span></a></li>
             </ul>
         </section>
     );
