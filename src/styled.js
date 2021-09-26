@@ -225,3 +225,50 @@ export const FormacaoStyled = styled.section`
         }
     }
 `
+
+export const RedesStyled = styled.section`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+
+
+    .img-redes {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-redes img {
+        width: 35%;
+        border-radius: 14px;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        padding: 15px;
+    }
+
+
+    ul li a {
+        margin: 0 10px;
+        display: flex;
+        text-decoration: none;
+        color: black;
+    }
+
+    ul li a:hover {
+        text-decoration: underline;
+    } 
+
+    ul li a img {
+        width: 25px;
+        margin-right: 5px;
+    }
+
+    @media (max-width: 1100px) {
+        .img-redes img {
+            width: 371px;
+        }
+    }
+`
