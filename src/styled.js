@@ -272,3 +272,53 @@ export const RedesStyled = styled.section`
         }
     }
 `
+
+export const MinhaHistoriaStyled = styled.section`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0px;
+
+    h1 {
+        margin: 10px;
+    }
+
+    .img-my-history {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    .img-my-history img {
+        width: 50%;
+        border-radius: 14px;
+    }
+
+    .text-my-history {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 80%;
+    }
+
+    .text-my-history p {
+        margin: 5px;
+    }
+
+    .text-my-history a {
+        text-decoration: none;
+        font-weight: 600;
+        color: black;
+    }
+
+    .text-my-history a:hover {
+        text-decoration: underline;
+    } 
+
+    @media (max-width: 1100px) {
+        .img-my-history img {
+            width: 380px;
+        }
+    }
+`

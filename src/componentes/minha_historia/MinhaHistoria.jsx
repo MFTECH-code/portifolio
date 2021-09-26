@@ -1,10 +1,10 @@
 import React from 'react';
-import "./minhaHistoria.css";
+import {MinhaHistoriaStyled} from "../../styled.js";
 
 const MinhaHistoria = () => {
     return (
         <>
-            <section className="content-my-history">
+            <MinhaHistoriaStyled>
                 <h1>Minha história</h1>
                 <section className="img-my-history">
                     <img src="./img/jackieChan.jpg" alt="meu ídolo" />
@@ -15,7 +15,7 @@ const MinhaHistoria = () => {
                     <p>E não para por aí. Em 2020 também comecei a desenvolver jogos! Utilizando a engine <a href="https://www.yoyogames.com/en/gamemaker" target="_blank" rel="noreferrer">Game Maker Studio 2</a>, aprendi a desenvolver meus primeiros jogos, e foi com engine que participei da minha primeira Game JAM a <a href="https://itch.io/jam/proficionaljam/entries" target="_blank" rel="noreferrer">None JAM</a>.</p>
                     <p>Em 2021 comecei meus estudos na faculdade e estou me desenvolvendo muito mais do que antes, e meu objetivo até o final desse ano é conseguir meu primeiro estágio em desenvolvimento web!</p>
                 </div>
-            </section>
+            </MinhaHistoriaStyled>
         </>
     );
 }
