@@ -133,6 +133,7 @@ export const ExperienciasStyled = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 40px 0px;
 
 
     .img-experiencias {
@@ -174,6 +175,53 @@ export const ExperienciasStyled = styled.section`
     @media (max-width: 1100px) {
         .img-experiencias img {
             width: 379px;
+        }
+    }
+`
+
+export const FormacaoStyled = styled.section`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+
+
+    h2 {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .img-formacao {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .img-formacao img {
+        width: 40%;
+        border-radius: 14px;
+    }
+
+    ul {
+        list-style: none;
+        margin: 5px 0;
+        padding: 0 20px;
+    }
+
+    ul li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    ul li img {
+        width: 25px;
+        margin: 0 5px;
+    }
+
+    @media (max-width: 1100px) {
+        .img-formacao img {
+            width: 370px;
         }
     }
 `

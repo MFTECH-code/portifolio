@@ -1,9 +1,9 @@
 import React from 'react';
-import "./formacao.css";
+import {FormacaoStyled} from "../../styled.js";
 
 const Formacao = () => {
     return (
-        <section className="formacao">
+        <FormacaoStyled>
             <h1>Minha formação</h1>
             <div className="img-formacao">
                 <img src="./img/formacao.jpg" alt="formação"/>
@@ -19,7 +19,7 @@ const Formacao = () => {
                 <li><img src="./img/certificate.png" alt="icone certificado" /><span>Autoridade em javaScript | DevMedia | 2021</span></li>
                 <li><img src="./img/certificate.png" alt="icone certificado" /><span>Formação Social e Sustentabilidade | Nano course FIAP | 2021</span></li>
             </ul>
-        </section>
+        </FormacaoStyled>
     );
 }
 
