@@ -5,15 +5,15 @@ import Formacao from "../formacao/Formacao";
 import Experiencias from "../experiencias/Experiencias";
 import Redes from "../redes/Redes";
 import {Link, Switch, Route} from "react-router-dom";
-import "./cabecalho.css";
+import { CabecalhoStyled } from '../../styled';
 
 const Cabecalho = () => {
 
     return (
         <>
-            <header className="cabecalho">
+            <CabecalhoStyled>
                 <Link to="/">
-                    <h1>Olá, meu nome é Matheus...</h1>
+                    <h1 className="header-title">Olá, meu nome é Matheus...</h1>
                 </Link>
                 <nav className="navBar">
                     <ul>
@@ -24,7 +24,7 @@ const Cabecalho = () => {
                         <li></li>
                     </ul>
                 </nav>
-            </header>
+            </CabecalhoStyled>
             <section>
                 <Switch>
                     <Route path="/conhecimentos">
