@@ -1,9 +1,9 @@
 import React from 'react';
-import "./conhecimentos.css";
+import {ConhecimentosStyled} from "../../styled.js"
 
 const Conhecimentos = () => {
     return (
-        <section className="conhecimentos">
+        <ConhecimentosStyled>
             <h1>Meus conhecimentos</h1>
             <div className="img-conhecimentos">
                 <img src="./img/conhecimentos.jpg" alt="Meus conhecimentos"/>
@@ -22,13 +22,13 @@ const Conhecimentos = () => {
                     <li><img src="./img/python.png" alt="python icone"/><span>Python</span></li>
                     <li><img src="./img/git.png" alt="git icone"/><span>Git</span></li>
                     <li><img src="./img/nodered.png" alt="nodered icone"/><span>Nodered</span></li>
-                    <li><img src="./img/chatbot.png" alt="chatbot icone"/><span>IBM cloud (Watson Assistant)</span></li>
+                    <li><img src="./img/chatbot.png" alt="chatbot icone"/><span>Chat Bot</span></li>
                     <li><img src="./img/sql.png" alt="sql icone"/><span>SQL</span></li>
                     <li><img src="./img/database.png" alt="database icone"/><span>Oracle DB</span></li>
-                    <li><img src="./img/datamodelling.png" alt="data modelling icone"/><span>Modelagem de banco de dados</span></li>
+                    <li><img src="./img/datamodelling.png" alt="data modelling icone"/><span>MDLSQL</span></li>
                 </ul>
             </div>
-        </section>
+        </ConhecimentosStyled>
     );
 }
 
